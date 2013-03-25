@@ -2,17 +2,17 @@ import os
 
 DEBUG = False
 
-SITE_NAME = "Stashboard"
-SITE_AUTHOR = "Colonel Mustache"
-SITE_URL = "http://stashbooard.appspot.com"
-REPORT_URL = "mailto:help@stashboard.org"
+SITE_NAME = "HasGeek Status"
+SITE_AUTHOR = "HasGeek"
+SITE_URL = "http://status.hasgeek.com"
+REPORT_URL = "mailto:support@hasgeek.com"
 
 # Twitter update settings
 TWITTER_CONSUMER_KEY = ''
 TWITTER_CONSUMER_SECRET = ''
 TWITTER_ACCESS_TOKEN = ''
 TWITTER_ACCESS_TOKEN_SECRET = ''
-TWITTER_HANDLE = 'stashboard_status'
+TWITTER_HANDLE = 'hasgeek'
 
 # RSS Feed settings
 RSS_NUM_EVENTS_TO_FETCH = 50

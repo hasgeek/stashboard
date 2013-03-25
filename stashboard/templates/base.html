@@ -34,17 +34,12 @@
     </div>
     <div id="footer">
       <ul class="left">
+        {% if user %}
         <li>
-          {% if user %}
           <a href="{{ logout_url }}">Logout</a>
-          {% else %}
-          <a href="/admin">Admin</a>
         </li>
         {% endif %}
-        <li>
-          <a href="/documentation">API</a>
-        </li>
-        <li>&copy; 2010-{% now "Y" %} <a href="http://www.twilio.com">Twilio Inc.</a></li>
+        <li>&copy; 2010-{% now "Y" %} <a href="http://hasgeek.com/">HasGeek</a></li>
       </ul>
       <ul class="right">
         <li id="powered"><a href="http://www.stashboard.org">POWERED BY <img src="/images/poweredbystash.png" alt="stash!" /> STASHBOARD</a></li>
